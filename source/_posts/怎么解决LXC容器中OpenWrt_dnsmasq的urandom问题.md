@@ -1,5 +1,5 @@
 ---
-title: 怎么解决LXC容器中OpenWrt_dnsmasq的urandom问题
+title: 怎么解决LXC容器中OpenWrt dnsmasq的urandom问题
 ---
 用LXC容器安装OpenWrt 22+时经常报`/dev/random`错误  
 会导致`PPPoE`无法拨号
@@ -10,3 +10,4 @@ title: 怎么解决LXC容器中OpenWrt_dnsmasq的urandom问题
 举例：`procd_add_jail_mount /etc/passwd /etc/group /etc/TZ /etc/hosts /etc/ethers /dev/urandom /dev/random`  
 ps:用`vi`先`Esc`再键入`/jail`可以快速查找  
 
+![改完示意图](2026.05.05-20.13.png)
