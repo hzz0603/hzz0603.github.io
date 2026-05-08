@@ -10,4 +10,4 @@ title: 怎么解决LXC容器中OpenWrt dnsmasq的urandom问题
 举例：`procd_add_jail_mount /etc/passwd /etc/group /etc/TZ /etc/hosts /etc/ethers /dev/urandom /dev/random`  
 ps:用`vi`先`Esc`再键入`/jail`可以快速查找  
 
-![改完示意图](1.png)
+![改完后](1.png)
