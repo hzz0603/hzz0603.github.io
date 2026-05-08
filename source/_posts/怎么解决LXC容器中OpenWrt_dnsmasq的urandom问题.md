@@ -1,7 +1,7 @@
 ---
 title: 怎么解决LXC容器中OpenWrt dnsmasq的urandom问题
 ---
-用LXC容器安装OpenWrt 22+时经常报`/dev/random`错误  
+用LXC容器安装`OpenWrt 22+`时经常报`/dev/random`错误  
 会导致`PPPoE`无法拨号
 
 可以用`vi`编辑`/etc/init.d/dnsmasq`文件  
